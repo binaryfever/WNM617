@@ -1,7 +1,20 @@
 #WNM 617 Syllabus
+##Course Description
+Students will explore responsive and mobile web applications using HTML5, CSS3, JavaScript, and frameworks. Usability testing in regards to rapid mobile web design and development will be covered. Native and hybrid applications will also be discussed. Students will produce a final mobile application for virtually any mobile device.
 
+##Grading
+-	50% Assignments
+-	20% Participation
+-	10% Midterm
+-	20% Final
+
+##Submitting Assignments
+All assignemnts and projects will be submitted through the LMS
+not Titan.  
+
+##Outline
 ###Week 1: Introduction and Review
--	Course Introduction Lecture
+-	Course Introduction and HTML/CSS/JavaScript Lecture
 -	In Class Group Challenge: HTML/CSS Page
 -	Assignment: Market Comparison Research
 
