@@ -58,48 +58,48 @@ not Titan.  See Instructor for details.
 -	Activity: Work on your Midterm Project Implementation
 -	Assignment: Finish Implementation of Midterm Project and Submit
 
-###Week 8 Bookstrap Part 2
+###Week 8: Bookstrap Part 2
 -	More on Bootstrap Lecture
 -	Demo: Customizing Bootstrap
 -	Activity: You're the Expert
 -	Assignment: Build a Responsive Blog with Bootstrap
 
-###Week 9 Hybrid Apps
+###Week 9: Hybrid Apps
 -	Hybrid Apps Lecture (Cordova, PhoneGap, Ionic, Appcelerator Titatnium)
 -	Demo: Build a PhoneGap App using PhoneGap Build
 -	Activity: Final Project Ideation
 -	Assignment: Choose a topic for your Final Project (including Target Audience and IA)
 
-###Week 10 PhoneGap in Depth
+###Week 10: PhoneGap in Depth
 -	PhoneGap Lecture (Config, Plugins, PhoneGap Build, etc...)
 -	Demo: Simple Hybrid App using the Camera
 -	Activity: Present Final Project Idea
 -	Assignment: Wireframes for Final Project	  
 
-###Week 11 Data Storage Solutions
+###Week 11: Data Storage Solutions
 -	JSON, Local Storage, Databases, Firebase, Parse
 -	Demo: A simple note application with PhoneGap and Parse
 -	Activity: Present Final Project Wireframes
 -	Assignment: High Fidelity Mockup of Final Project
 
-###Week 12 Wrapping a site in Swift
+###Week 12: Wrapping a site in Swift
 -	Using xcode and swift to wrap your website in a UIWebView and why
 -	Demo: Using UIWebView
 -	Present Final Project High Fidelity Mockup
 -	Activities: Wrap Week 8 Responsive Blog in UIWebView
 -	Assignment:	Begin Implmenting Final Project
 
-###Week 13 Wrapping a site in Android
+###Week 13: Wrapping a site in Android
 -	Using Andriod Studio to wrap your website in a WebView and why
 -	Demo: Using WebView
 -	Activities: Wrap Week 8 Responsive Blog in WebView
 -	Assignment: Continue Implementing Final Project
 
-###Week 14 Final Project Work
+###Week 14: Final Project Work
 -	This week we will use the entire class to wrap our the Final Project and get help
 -	Assignment: Finish Implementing Final Project and Submit
 
-###Week 15 More on Mobile Tech
+###Week 15: More on Mobile Tech
 -	Wearables(Smart Watches, Activity Trackers, Virtual Reality, etc...)
 -	Activity: You're really an expert now!
 -	Activity: Concepting Mobile Tech
