@@ -10,8 +10,6 @@
 -	Review of HTML/CSS/JavaScript
 -	Native, Hybrid, and Mobile Web apps
 
--	Slides
-
 ####In Class Group Challenge - Our Team  
 You will work in groups to complete this in class challenge. You must work on this during class but it will
 not be rurned in.  They do count towards your participation grade.
