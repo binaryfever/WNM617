@@ -25,7 +25,7 @@ not Titan.  See Instructor for details.
 -	Assignment:  Initialzr Responsive Site
 
 ###Week 3: jQuery
--	jQuery
+-	jQuery and Callbacks
 -	Demo: jQuery Uses
 -	Midterm Project Ideation
 -	Assignment: jQuery Effects on a Responsive Page

@@ -4,23 +4,19 @@
 
 -	Introduction
 -	Logistics, Grading, Comittment to Original Work
--	History
--	Reset of HTML/CSS/JavaScript
--	Introduction to jQuery
--	Introduction to jQuery UI
--	Introduction to jQuery Mobile
--	Introduction to AngularJS
--	Introduction to Bootstrap
+-	Tools
+-	Name Game
+-	History of Mobile
+-	Review of HTML/CSS/JavaScript
 -	Native, Hybrid, and Mobile Web apps
 
-####In Class Group Challenge
-Occassionally in this course we will have in class challenges.  
-You will work in groups to complete these challenges.  The challenges 
-will be due by the end of the class.  You may turn them in incomplete as
-they are not graded like an assignment.  They do however count towards
-your particiattion grade. So they must be turned in.
+-	Slides
 
-This weeks challenge is to create a basic 4 or less page website.  It doesn't need to be fancy. 
+####In Class Group Challenge - Our Team  
+You will work in groups to complete this in class challenge. You must work on this during class but it will
+not be rurned in.  They do count towards your participation grade.
+
+The group challenge is to create a basic, 4 or less, page website.  It doesn't need to be fancy. 
 It should have the following items:
 
 1.	Navigation
@@ -28,10 +24,10 @@ It should have the following items:
 3.  At least 1 images
 4.	At least two paragraphs
 5.	Footer
-6.	Basic Styling (keep it simple)
+6.	Basic CSS Styling (keep it simple)
 
-The purpose of this challenge is to get your feet wet with HTML and CSS after the 
-summer.  
+The purpose of this challenge is to get familiar with HTML and CSS after the 
+summer break.  
 
 ####Assignment
 Complete a market-share comparison of two mobile devices. Note that your
