@@ -27,13 +27,13 @@ It should have the following items:
 The purpose of this challenge is to get familiar with HTML and CSS after the 
 summer break.  
 
-####Assignment
+####Assignment Market Share Comparison
 Complete a market-share comparison of two mobile devices. Note that your
 two devices must be from different companies (for example, iPhone vs. Windows Phone, or Android tablet vs. iPad). 
 For each device, include items such as the market share, number of devices sold, number of users, and number of 
 available native applications. 
 
-Type out your findings in a report format in a PDF document.  Upload your assignment to the 
-LMS.
+Type out your findings with images in a report format in a PDF document.  Upload your assignment to the 
+Assignment - Market Share Comparison in the LMS.
 
 Due Date: Before the beginning of the next class
