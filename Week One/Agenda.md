@@ -11,15 +11,17 @@
 -	Native, Hybrid, and Mobile Web apps
 
 ####In Class Group Challenge - Our Team  
-You will work in groups to complete this in class challenge. You must work on this during class but it will
-not be rurned in.  They do count towards your participation grade.
+Imagine you work at a brand new start up and are building your "Team" page.  The page can contain information such as pictures of your team, short bios (3 or less sentences), what it is like to work at this startup, etc...
 
-The group challenge is to create a basic, 4 or less, page website.  It doesn't need to be fancy. 
+You will work in groups to complete this in class challenge. You must work on this during class but it will
+not be turned in.  It does count towards your participation grade. 
+
+The group challenge is to create a basic, 2 or less, page website.  It doesn't need to be fancy. 
 It should have the following items:
 
 1.	Navigation
 2.	Header
-3.  At least 1 images
+3.  At least 1 image
 4.	At least two paragraphs
 5.	Footer
 6.	Basic CSS Styling (keep it simple)
@@ -37,3 +39,5 @@ Type out your findings with images in a report format in a PDF document.  Upload
 Assignment - Market Share Comparison in the LMS.
 
 Due Date: Before the beginning of the next class
+You will work in groups to complete this in class challenge. You must work on this during class but it will
+not be turned in.  They do count towards your participation grade. 
