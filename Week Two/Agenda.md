@@ -29,6 +29,7 @@ http://blog.nwf.org/2015/09/rainn-wilson-and-ranger-rick-want-you-to-help-build-
 -	Use Initializr
 -	Change the colors.  There should be no orange in the site
 -	Use at least one image.  You can use images from the current article
+-	Change the font
 -	You only have to build one page
 -	Use your amazing Visual Design skills :)
 
