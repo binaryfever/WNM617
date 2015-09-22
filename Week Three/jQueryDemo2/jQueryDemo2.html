@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Demo 2</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$(function() {
+    		//Selecting an element by id
+			$("#heading")
+			
+			//Selecting an element by class
+			$(".subheading")
+			
+			//Selecting an element by group  *BE CAREFUL THIS WILL SELECT ALL THE ELEMENTS
+			$("p")
+			
+			//Selecing an element by its attribute
+			$( "input[name='first_name']" ); // Beware, this can be very slow in older browsers
+		});
+	</script>
+</head>
+<body>
+	<h1 id="heading">This is a heading</h1>
+	<h2 class="subheading">This is a subheading</h2>
+	<p>This is a paragraph</p>
+	<input type="text" name="first_name"></input>
+</body>
+</html>

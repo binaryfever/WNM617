@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Demo 2</title>
+	<link rel="stylesheet" href="jqueryDemo3.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$(function() {
+    		//Selecting an element by id and changing its contained HTML and content
+			$("#paragraph_one").html("This is a <strong>paragraph</strong> of text.");
+			
+			//Selecting an element by id and changing its CSS
+			$("#paragraph_two").css({color: "blue"});
+		});
+	</script>
+</head>
+<body>
+	<p id="paragraph_one">This is a paragraph of text.</p>
+	
+	<p id="paragraph_two">This is a second paragraph of text.</p>
+</body>
+</html>

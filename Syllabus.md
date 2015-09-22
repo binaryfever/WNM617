@@ -27,16 +27,16 @@ not Titan.  See Instructor for details.
 ###Week 3: jQuery
 -	jQuery and Callbacks
 -	Demo: jQuery Uses
--	Midterm Project Ideation
--	Assignment: jQuery Effects on a Responsive Page
--	Assignment: Choose a Topic for the Midterm Project (including Target Audience and IA)
+-	Activty: Midterm Project Ideation
+-	Activity: jQuery Effects on a Responsive Page
+-	Assignment: Choose a Topic for the Midterm Project (include Target Audience and Personas)
 
 ###Week 4: jQuery Mobile Part 1
 -	jQuery Mobile Introduction
 -	Demo: jQuery Mobile
 -	Present Midterm Project Idea and Gather Feedback
 -	Activity: Multipage jQuery site using ListViews
--	Assignment: Wireframes for Midterm Project
+-	Assignment: Information Architecture and Wireframes for Midterm Project
 
 ###Week 5: jQuery Mobile Part 2
 -	jQuery Mobile Deeper Dive

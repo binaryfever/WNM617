@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Demo 2</title>
+	<link rel="stylesheet" href="jqueryDemo4.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+		$(function() {
+			//First we select the paragraph and attach a click event to it
+			//When the user clicks anywhere inside the paragraph print the first paragraph to the console
+			$( "#paragraph_one" ).click(function() {
+				//Notice we use .text() here instead of HTML.  Why do you think?
+    			console.log( $("#paragraph_one").text() );
+			});
+			
+			//First we select the button and we attach the click event to it
+			$( "#button_one" ).click(function() {
+				//Becaues we placed the code inside the click function we now only change the color of the 
+				//paragraph when the user clicks the button
+				$("#paragraph_two").css({color: "blue"});
+			});
+			
+			
+		});
+	</script>
+</head>
+<body>
+	<p id="paragraph_one">This is a paragraph of text.</p>
+	
+	<p id="paragraph_two">This is a second paragraph of text.</p>
+	<button id="button_one">Change the second paragraph to blue</button>
+</body>
+</html>
