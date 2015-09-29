@@ -11,7 +11,6 @@
 
 ####Assignment: Information Architecture and Wireframes for Midterm Project
 
-#Midterm Project
 ##Description
 You have been hired by ANI-WHERE (an imaginary scientific organization) to create a mobile Animal Tracker web app. You must design and present a beautiful and 
 functional responsive web app in class, Week 7.
@@ -25,7 +24,7 @@ This will feature a custom map interface and the ability for the user to add whe
 Based on your three tasks create an information architecture for your project.
 
 ###Step 2. Wireframes
-Now that you have an information architecture beging wireframing out the various pages of your project. Your wireframes
+Now that you have an information architecture begin wireframing out the various pages of your project. Your wireframes
 should be either for a tablet or phone (not a desktop experience)
 
 
