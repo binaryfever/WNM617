@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- Remember the HTML5 doctype above is a must --> 
+<html>
+<head>
+
+	<!-- Note that if running locally (on your computer) there will be an error in chrome.  Either upload to a server
+	     or open locally in firefox/safari -->
+	<title>Page Title</title>
+	
+	<!-- Don't forget the viewport! -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page">
+	
+		<div data-role="header">
+			<h1>Widgets</h1>
+		</div><!-- /header -->
+	
+		<div role="main" class="ui-content">
+			
+			<h1>Buttons</h1>
+			
+			<h3>Anchor Buttons and Regular Buttons</h3>
+			<p>class="ui-btn"</p>
+			
+			<!-- Anchor Button: Best used for buttons that link to pages.  Notice the class"ui-btn" -->
+			<a href="#" class="ui-btn">Anchor</a>
+			
+			<!-- Regular button -->
+			<button class="ui-btn">Button</button>
+			
+			<p>You can give the buttons rounded corners or drop shadows by adding css classes</p>
+			<p>class="ui-btn ui-corner-all" or class="ui-btn ui-shadow"</p>
+			
+			<h1>Checkboxes and Radio Widget</h1>
+			
+			<!--Checkboxes -->
+			<h3>Checkbox</h3>
+			<p>type="checkbox"</p>
+			<label><input type="checkbox" name="checkbox-0 ">Check Me</label>
+			
+			<!-- Radio Buttons -->
+			<h3>Radio Buttons</h3>
+			<label><input type="radio" name="radio-choice-0" id="radio-choice-0a">One</label>
+			<label for="radio-choice-0b">Two</label><input type="radio" name="radio-choice-0" id="radio-choice-0b" class="custom">
+			
+			<!-- Vertically Group -->
+			<p>We can vertically group the checkboxes or radio buttons by using a fieldset element with the data-role set to controlgroup</p>
+			<fieldset data-role="controlgroup">
+				<legend>Vertical:</legend>
+				<input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+				<label for="checkbox-v-2a">One</label>
+				<input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+				<label for="checkbox-v-2b">Two</label>
+				<input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+				<label for="checkbox-v-2c">Three</label>
+			</fieldset>
+			
+			<p>Don't forget the labels.  Without the labels our radio and checkboxes will not have text</p>
+			
+			<!-- Collapsible Widget -->
+			<h1>Collapsible Widget</h1>
+			<h3>Collpasible</h3>
+			<p>This is basically an accordion</p>
+			<div data-role="collapsible">
+				<h4>Heading</h4>
+				<p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+			</div> 
+			
+			<!-- Set of Collapsbile -->
+			<h3>Collapsible Set</h3>
+			<div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+				<div data-role="collapsible">
+					<h3>Section 1</h3>
+					<p>I'm the collapsible content for section 1</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Section 2</h3>
+					<p>I'm the collapsible content for section 2</p>
+				</div>
+				<div data-role="collapsible">
+					<h3>Section 3</h3>
+					<p>I'm the collapsible content for section 3</p>
+				</div>
+			</div>
+		
+			<!--Flip Switch -->
+			<h1>Flip Switch</h1>
+			<label for="flip-checkbox-1">Flip toggle switch checkbox:</label>
+			<input type="checkbox" data-role="flipswitch" name="flip-checkbox-1" id="flip-checkbox-1">
+			
+			<!-- Slider -->
+			<h1>Slider and Range Slider</h1>
+			<h3>Slider</h3>
+			<label for="slider-1">Slider:</label>
+			<input type="range" name="slider-1" id="slider-1" min="0" max="100" value="50">
+			
+			<h3>Range Slider</h3>
+			<!-- Range Slider -->
+			<div data-role="rangeslider">
+				<label for="range-1a">Rangeslider:</label>
+				<input type="range" name="range-1a" id="range-1a" min="0" max="100" value="40">
+				<label for="range-1b">Rangeslider:</label>
+				<input type="range" name="range-1b" id="range-1b" min="0" max="100" value="80">
+			</div>
+			
+			<h1>Select Menu</h1>
+			<!-- Select Menu -->
+			<div class="ui-field-contain">
+				<label for="select-native-1">Basic:</label>
+				<select name="select-native-1" id="select-native-1">
+					<option value="1">The 1st Option</option>
+					<option value="2">The 2nd Option</option>
+					<option value="3">The 3rd Option</option>
+					<option value="4">The 4th Option</option>
+					</select>
+			</div>
+			
+		</div><!-- /content -->
+	
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
+</body>
+</html>
