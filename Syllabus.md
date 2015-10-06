@@ -42,18 +42,20 @@ not Titan.  See Instructor for details.
 -	jQuery Mobile Deeper Dive
 -	Demo: jQuery Mobile & Google Maps
 -	Present: Present Wireframes for Midterm
--	Activity: jQuery Mobile Site Using a Styled Google Map
+-	Activity: Step by Step coding
+-   Activity: Work on your Midterm Project
 -	Assignment: High Fidelity Mockup for Midterm Project and Begin Implementation
 
-###Week 6: jQuery UI Theming, Mobile First Design Principles, and Design Trends
--	jQuery UI Theming, Mobile First Design, and Design Trends Lecture
+###Week 6: jQuery UI Theming, Mobile First Design Principles, and Maps
+-	jQuery UI Theming, Mobile First Design, and Maps
 -	Demo: jQuery Theming
+-	Demo: Google Maps
 -	Present High Fidelity Mockup for Midterm
 -	Activity: Creating a Theme
 -	Assignment: Continue Implementation of Midterm Project
 
 ###Week 7: Bootstrap Part 1
--	Bootstrap and its competitors Lecture
+-	Bootstrap Introduction
 -	Demo: Simple Bootstrap Site
 -	Activity: Work on your Midterm Project Implementation
 -	Assignment: Finish Implementation of Midterm Project and Submit

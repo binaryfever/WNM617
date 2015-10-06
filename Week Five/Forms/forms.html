@@ -1,0 +1,69 @@
+!DOCTYPE html>
+<!-- Remember the HTML5 doctype above is a must -->
+<html>
+
+<head>
+
+	<!-- Note that if running locally (on your computer) there will be an error in chrome.  Either upload to a server
+	     or open locally in firefox/safari -->
+	<title>Page Title</title>
+
+	<!-- Don't forget the viewport! -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+</head>
+
+<body>
+	<div data-role="page">
+
+		<div data-role="header">
+			<h1>Forms</h1>
+		</div>
+		<!-- /header -->
+
+		<div role="main" class="ui-content">
+			<form action="">
+				<!-- Regular Text Input -->
+				<label for="text-basic">Text input:</label>
+				<input type="text" name="text-basic" id="text-basic" value="">
+
+				<!-- Text Area Input -->
+				<label for="textarea">Textarea:</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+
+				<!-- Search Input -->
+				<label for="search">Search Input:</label>
+				<input type="search" name="password" id="search" value="" placeholder="Placeholder text...">
+
+				<h2>We can make the input elements smaller by using the mini versions</h2>
+				<label for="search">Search Input:</label>
+				<input type="search" name="password" id="search" value="" placeholder="Placeholder text..." data-mini="true">
+
+				<fieldset data-role="controlgroup" data-mini="true">
+					<legend>Radio buttons, vertical controlgroup:</legend>
+					<input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked">
+					<label for="radio-choice-1">Cat</label>
+					<input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2">
+					<label for="radio-choice-2">Dog</label>
+					<input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3">
+					<label for="radio-choice-3">Hamster</label>
+					<input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4">
+					<label for="radio-choice-4">Lizard</label>
+				</fieldset>
+
+			</form>
+
+		</div>
+		<!-- /content -->
+
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+		<!-- /footer -->
+	</div>
+	<!-- /page -->
+</body>
+
+</html>

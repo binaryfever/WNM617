@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Don't forget the viewport! -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  <style>
+    /*These classes are for the box which the user taps and holds*/
+    
+    div.box {
+      width: 3em;
+      height: 3em;
+      background-color: #108040;
+    }
+    
+    div.box.taphold {
+      background-color: #7ACEF4;
+    }
+  </style>
+</head>
+
+<body>
+  <div data-role="page">
+
+    <div data-role="header">
+      <h1>Tap Hold</h1>
+    </div>
+    <div role="main" class="ui-content">
+      <h3>Long press the square for 750 milliseconds to see the above code applied:</h3>
+      <div class="box"></div>
+    </div>
+    <script>
+      $(function(){
+        $( "div.box" ).bind( "taphold", tapholdHandler );
+ 
+        function tapholdHandler( event ){
+          $( event.target ).addClass( "taphold" );
+        }
+      });
+    </script>
+
+</body>
+
+</html>
