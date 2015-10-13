@@ -1,0 +1,7 @@
+.ui-icon-myicon:after {
+	background-image: url("instagram19.svg");
+}
+/* Fallback */
+.ui-nosvg .ui-icon-myicon:after {
+	background-image: url("instagram19.png");
+}
