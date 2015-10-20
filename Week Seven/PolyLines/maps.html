@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Remember the HTML5 doctype above is a must -->
+<html>
+
+<head>
+
+	<!-- Note that if running locally (on your computer) there will be an error in chrome.  Either upload to a server
+	     or open locally in firefox/safari -->
+	<title>Page Title</title>
+
+	<!-- Don't forget the viewport! -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+	<link rel="stylesheet" href="icons.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+
+	<!-- This is our reference to Google maps.  We need this or it won't work! -->
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script>
+		//We need to use this JavaScript to create the map on the page init event
+	$( document ).on( "pageinit", "#map-page", function() {
+		
+		var defaultLatLng = new google.maps.LatLng(37.786191, -122.399395);  // Default to Hollywood, CA when no geolocation support
+		
+		
+		
+		//We create a function to draw the map.  It is used once the geolocation is done
+		function drawMap(latlng) {
+			
+			//The options below do the following
+			// zoom: Zooms into our locations on the map
+			// center: centers in to our location on the map
+			// mapTypeId:  We can set this to ROADMAP, TERRAIN, or SATELLITE
+			var myOptions = {
+				zoom: 17,
+				center: latlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			};
+			
+			var map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+			
+			// By defauly Google maps are not responsive.  
+			// To make them responsive we have to have the browser pay attention to the window size
+			//  We then recenter the map
+			google.maps.event.addDomListener(window, "resize", function() {
+			var center = map.getCenter();
+			google.maps.event.trigger(map, "resize");
+			map.setCenter(center); 
+			});
+			
+			//Once we have created our map the way we want
+			//We need to set the coordinates which are start and stopping places for our line
+			var walkingCoordinates = [
+				{lat: 37.786191, lng: -122.399395},
+				{lat: 37.787882, lng: -122.400630},
+			];
+			
+			//We then create the path (polyline)
+			var walkingPath = new google.maps.Polyline({
+				path: walkingCoordinates,
+				geodesic: true,
+				strokeColor: '#FF0000',
+				strokeOpacity: 1.0,
+				strokeWeight: 2
+			});
+			
+			//Don't forget to turn the polyline on
+			walkingPath.setMap(map);
+		
+		}
+		
+		drawMap(defaultLatLng);
+	});
+	</script>
+
+	<!-- We have to set the map page and canvas to 100% or the map won't display -->
+	<style>
+		#map-page,
+		#map-canvas {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div data-role="page" id="map-page">
+
+		<div data-role="header">
+			<h1>Google Maps</h1>
+		</div>
+		<!-- /header -->
+
+		<div role="main" class="ui-content" id="map-canvas">
+			<!-- map loads here... -->
+		</div>
+		<!-- /content -->
+
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div>
+		<!-- /footer -->
+	</div>
+	<!-- /page -->
+</body>
+
+</html>
