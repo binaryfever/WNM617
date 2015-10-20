@@ -85,7 +85,7 @@ not Titan.  See Instructor for details.
 -	Activity: Present Final Project Wireframes
 -	Assignment: High Fidelity Mockup of Final Project
 
-###Week 12: Wrapping a site in Swift
+###Week 12: Wrapping a site in xCode and Swift
 -	Using xcode and swift to wrap your website in a UIWebView
 -	App Store Issues with this method
 -	Demo: Using UIWebView
