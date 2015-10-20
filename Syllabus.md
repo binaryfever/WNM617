@@ -54,7 +54,8 @@ not Titan.  See Instructor for details.
 -	Activity: Creating a Theme
 -	Assignment: Continue Implementation of Midterm Project
 
-###Week 7: Bootstrap Part 1
+###Week 7: Bootstrap Part 1 and More Google Maps
+- Maps (Custom Markers, Info Windows, Paths, Styling)
 -	Bootstrap Introduction
 -	Demo: Simple Bootstrap Site
 -	Activity: Work on your Midterm Project Implementation
@@ -85,14 +86,15 @@ not Titan.  See Instructor for details.
 -	Assignment: High Fidelity Mockup of Final Project
 
 ###Week 12: Wrapping a site in Swift
--	Using xcode and swift to wrap your website in a UIWebView and why
+-	Using xcode and swift to wrap your website in a UIWebView
+-	App Store Issues with this method
 -	Demo: Using UIWebView
 -	Present Final Project High Fidelity Mockup
 -	Activities: Wrap Week 8 Responsive Blog in UIWebView
 -	Assignment:	Begin Implmenting Final Project
 
 ###Week 13: Wrapping a site in Android
--	Using Andriod Studio to wrap your website in a WebView and why
+-	Using Andriod Studio to wrap your website in a WebView
 -	Demo: Using WebView
 -	Activities: Wrap Week 8 Responsive Blog in WebView
 -	Assignment: Continue Implementing Final Project
