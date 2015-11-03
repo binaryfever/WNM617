@@ -3,7 +3,7 @@
 ###Lecture
 
 -	More on Bootstrap 
--	Demo: Customizing Bootstrap
+-	Demo: Using Bootstrap
 -	Activity: Midpoint Presentations
 -	Activity: Reverse Ideas.  Using bootstrap implement a startup website that solves reverse idea.
 -	Assignment: Build a simple blog front-end (non functional) with bootstrap
