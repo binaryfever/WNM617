@@ -6,7 +6,7 @@
 -	Demo: Using Bootstrap
 -	Activity: Midpoint Presentations
 -	Activity: Reverse Ideas.  Using bootstrap implement a startup website that solves reverse idea.
--	Assignment: Build a simple blog front-end (non functional) with bootstrap
+-	Assignment: Build a startup site using a reverse idea.
 
 ###Assignment: BootStrap Startup Site
 
