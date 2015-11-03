@@ -54,7 +54,8 @@ not Titan.  See Instructor for details.
 -	Activity: Creating a Theme
 -	Assignment: Continue Implementation of Midterm Project
 
-###Week 7: Bootstrap Part 1
+###Week 7: Bootstrap Part 1 and More Google Maps
+- Maps (Custom Markers, Info Windows, Paths, Styling)
 -	Bootstrap Introduction
 -	Demo: Simple Bootstrap Site
 -	Activity: Work on your Midterm Project Implementation
@@ -95,9 +96,6 @@ not Titan.  See Instructor for details.
 -   Using Andriod Studio to wrap your website in a WebView and why
 -	Demo: Using UIWebView (ios)
 -	Demo: Using WebView (android)
--	Present Final Project High Fidelity Mockup
--	Activities: Wrap Week 8 Responsive Blog in UIWebView
--	Assignment:	Begin Implmenting Final Project
 
 ###Week 14: Final Project Work
 -	This week we will use the entire class to wrap our the Final Project and get help
