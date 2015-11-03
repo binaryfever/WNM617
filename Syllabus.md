@@ -58,44 +58,46 @@ not Titan.  See Instructor for details.
 -	Bootstrap Introduction
 -	Demo: Simple Bootstrap Site
 -	Activity: Work on your Midterm Project Implementation
--	Assignment: Finish Implementation of Midterm Project and Submit
+-	Assignment: Continue Implementation
 
-###Week 8: Bookstrap Part 2
--	More on Bootstrap Lecture
+###Week 8: Midterm Roundup
+-	Assignment: Submit Midterm Project
+
+###Week 9: Bootstrap Part 2
+-	More on Bootstrap 
 -	Demo: Customizing Bootstrap
--	Activity: You're the Expert
--	Assignment: Build a Responsive Blog with Bootstrap
+-	Activity: Midpoint Presentations
+-	Activity: Reverse ideas and work on assignment 
+-	Assignment: Build a one page website with bootstrap from your reverse ideas.  
 
-###Week 9: Hybrid Apps
+###Week 10: Hybrid Apps
 -	Hybrid Apps Lecture (Cordova, PhoneGap, Ionic, Appcelerator Titatnium)
 -	Demo: Build a PhoneGap App using PhoneGap Build
 -	Activity: Final Project Ideation
 -	Assignment: Choose a topic for your Final Project (including Target Audience and IA)
 
-###Week 10: PhoneGap in Depth
+###Week 11: PhoneGap in Depth
 -	PhoneGap Lecture (Config, Plugins, PhoneGap Build, etc...)
 -	Demo: Simple Hybrid App using the Camera
 -	Activity: Present Final Project Idea
+-	Assignment: Create a simple PhoneGap app.
 -	Assignment: Wireframes for Final Project	  
 
-###Week 11: Data Storage Solutions
+###Week 12: Data Storage Solutions
 -	JSON, Local Storage, Databases, Firebase, Parse
 -	Demo: A simple note application with PhoneGap and Parse
 -	Activity: Present Final Project Wireframes
+-	Activity: Create a form that stores user preferences using one of the methods discussed in class
 -	Assignment: High Fidelity Mockup of Final Project
 
-###Week 12: Wrapping a site in Swift
+###Week 13: Wrapping a site in Swift and in Android
 -	Using xcode and swift to wrap your website in a UIWebView and why
--	Demo: Using UIWebView
+-   Using Andriod Studio to wrap your website in a WebView and why
+-	Demo: Using UIWebView (ios)
+-	Demo: Using WebView (android)
 -	Present Final Project High Fidelity Mockup
 -	Activities: Wrap Week 8 Responsive Blog in UIWebView
 -	Assignment:	Begin Implmenting Final Project
-
-###Week 13: Wrapping a site in Android
--	Using Andriod Studio to wrap your website in a WebView and why
--	Demo: Using WebView
--	Activities: Wrap Week 8 Responsive Blog in WebView
--	Assignment: Continue Implementing Final Project
 
 ###Week 14: Final Project Work
 -	This week we will use the entire class to wrap our the Final Project and get help
