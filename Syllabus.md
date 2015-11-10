@@ -72,10 +72,12 @@ not Titan.  See Instructor for details.
 -	Assignment: Build a one page website with bootstrap from your reverse ideas.  
 
 ###Week 10: Hybrid Apps
--	Hybrid Apps Lecture (Cordova, PhoneGap, Ionic, Appcelerator Titatnium)
+-	Hybrid Apps Lecture (Cordova/PhoneGap, Ionic)
 -	Demo: Build a PhoneGap App using PhoneGap Build
--	Activity: Final Project Ideation
--	Assignment: Choose a topic for your Final Project (including Target Audience and IA)
+-	Activity - Finish Midterm Presentations
+-	Activity - Final Project Ideation
+-	Activity - Build a PhoneGap App using the provided template
+-	Assignment: Final Project - Part 1
 
 ###Week 11: PhoneGap in Depth
 -	PhoneGap Lecture (Config, Plugins, PhoneGap Build, etc...)
