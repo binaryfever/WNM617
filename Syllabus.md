@@ -80,16 +80,17 @@ not Titan.  See Instructor for details.
 -	Assignment: Final Project - Part 1
 
 ###Week 11: PhoneGap in Depth
--	PhoneGap Lecture (Config, Plugins, PhoneGap Build, etc...)
--	Demo: Simple Hybrid App using the Camera
+-	Put your midterm into PhoneGap
+-	Demo: Putting your Midterm Into PhoneGap
+-	Using PhoneGap Plugins
+-	Demo: Using the Camera Plugin
 -	Activity: Present Final Project Idea
--	Assignment: Create a simple PhoneGap app.
--	Assignment: Wireframes for Final Project	  
+-	Activity: Put your midterm into a PhoneGap App and apply a plugin if needed
+-	Assignment: Final Project Part 2 - Wireframes for Final Project 
 
 ###Week 12: Data Storage Solutions
 -	JSON, Local Storage, Databases, Firebase, Parse
 -	Demo: A simple note application with PhoneGap and Parse
--	Activity: Present Final Project Wireframes
 -	Activity: Create a form that stores user preferences using one of the methods discussed in class
 -	Assignment: High Fidelity Mockup of Final Project
 

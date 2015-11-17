@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vibration Plugin Example</title>
+
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+  <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to connect with the device
+    //
+    document.addEventListener("deviceready",onDeviceReady,false);
+
+    // Cordova is ready to be used!
+    //
+    function onDeviceReady() {
+      console.log(navigator.vibrate);
+    }
+
+    function vibrate(){
+      // Vibrate for 3 seconds
+      navigator.vibrate(3000);  
+    }
+    
+    //What would be a better way to attach the vibrate function to the onclick event?
+  </script>
+</head>
+
+<body>
+  <button onclick="vibrate();">Vibrate Device</button>
+</body>
+
+</html>
