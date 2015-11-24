@@ -89,10 +89,12 @@ not Titan.  See Instructor for details.
 -	Assignment: Final Project Part 2 - Wireframes for Final Project 
 
 ###Week 12: Data Storage Solutions
--	JSON, Local Storage, Databases, Firebase, Parse
--	Demo: A simple note application with PhoneGap and Parse
--	Activity: Create a form that stores user preferences using one of the methods discussed in class
--	Assignment: High Fidelity Mockup of Final Project
+-	Local Storage, Session Storage, Parse, Basic OOP
+-	Demo: Local and Session Storage
+-	Demo: Registration Form with Parse
+-	Activity: Recreate the parse demo and add street address, city, state, and country
+-	Activity: Work on Assignment
+-	Assignment: Final Project Part 3 - High Fidelity Mockup + Begin Implementation
 
 ###Week 13: Wrapping a site in Swift and in Android
 -	Using xcode and swift to wrap your website in a UIWebView and why

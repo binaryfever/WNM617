@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Local Storage Example</h1>
+    <input id="name" type="text" placeholder="Enter Name">
+    <button id="submit">Submit Data to the Local Storage</button>
+    <h2>The Local Storage Once Stored</h2>
+    <div id="result"></div>
+    
+    <h2>Remove the Item From Storage</h2>
+    <button id="remove">Remove the name from storage</button>
+
+
+    <script>
+        //YOU DO NOT NEED JQUERY to use these types of storage. I am just using it now to to get data from the form elements 
+        //more easily.
+        $("#submit").on('click', function(){
+            
+        // Check browser support
+            if (typeof(Storage) !== "undefined") {
+                //Get the data from the input box and store it in the variable user entered name
+                var userEnteredName = $("#name").val();
+                
+                // Store
+                localStorage.setItem("name", userEnteredName);
+                // Retrieve
+                $("#result").html(localStorage.getItem("name"));
+            } else {
+                $("#result").html("Sorry, your browser does not support Web Storage...");
+            }
+        });
+
+        //Lets make a button that removes the item from storage
+        $("#remove").on('click', function(){
+            
+        // Check browser support
+            if (typeof(Storage) !== "undefined") {
+                //Get the data from the input box and store it in the variable user entered name
+                
+                localStorage.removeItem("name");
+             
+            } 
+        });
+    </script>
+
+</body>
+
+</html>

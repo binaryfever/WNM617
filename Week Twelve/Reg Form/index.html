@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Starter Template for Bootstrap</title>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!--We need to add the parse libraries -->
+  <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+
+    <label for="first_name">First Name</label>
+    <input id="first_name" type="text"></input>
+    <label for="last_name">Last Name</label>
+    <input id="last_name" type="text">
+    <label for="email">Email</label>
+    <input id="email" type="text">
+    <button id="submit">Submit</button>
+    <br />
+    <h1>Registration Data</h1>
+    <p id="first_name_display"></p>
+    <p id="last_name_display"></p>
+    <p id="email_display"></p>
+    <h1>Display All</h1>
+    <button id="display_all">Display All</button>
+    <div id="all"></div>
+    <!-- Now we do the parse work -->
+    <script>
+      //We need to tell parse what app this is. 
+     Parse.initialize("5Uh6MOqzbuhRH7Y6r4WiAdHPp1tKIhx0aZ30hDrQ", "L9exOVAYq2cFR0jMxtIIg16rRUHfTtjPzKrodC87"); 
+     //Create the registration store
+     var Registration = Parse.Object.extend("RegistrationObject");
+     
+     //create the thing we want to save.  In this case it is a registration to a conference
+     var registration = new Registration();
+     
+     $("#submit").on("click", function(){
+       
+      
+          
+          //Get the data from the form inputs and text area with jquery
+          var firstName = $('#first_name').val();
+          var lastName = $('#last_name').val();
+          var email = $('#email').val();
+          
+          //Set the data we want to save to Parse
+          registration.set("first_name", firstName);
+          registration.set("last_name", lastName);
+          registration.set("email", email);
+      
+          //Now we do the saving and send messages if something was successfully saved
+          //or if there was an error
+          registration.save(null, {
+            success: function(registration){
+              //Execute any logic that should take place after save
+              //We are just going to display it
+              $("#first_name_display").html(registration.get("first_name"));
+              $("#last_name_display").html(registration.get("last_name"));
+              $("#email_display").html(registration.get("email"));
+            },
+            error: function(registration, error){
+              alert("Failed to register");
+            }  
+          });
+     });
+  
+    var query = new Parse.Query(Registration);
+    $("#display_all").on('click', function(){   
+    //Lets display all of the data in Parse when the user clicks display all
+    
+    query.find({
+      success:function(results) {
+        // Do something with the returned Parse.Object values
+        
+        for (var i = 0; i < results.length; i++) {
+          var registrations = results[i];
+          $("#all").append("<p>" + registrations.get('email') + "</p>");
+          console.log(registrations.get('email'));
+          
+        }
+      },
+      error:function(error) {
+        alert("Error when getting objects!");
+      }
+    });
+    });
+    </script>
+</body>
+
+</html>
