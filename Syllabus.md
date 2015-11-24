@@ -98,9 +98,11 @@ not Titan.  See Instructor for details.
 
 ###Week 13: Wrapping a site in Swift and in Android
 -	Using xcode and swift to wrap your website in a UIWebView and why
--   Using Andriod Studio to wrap your website in a WebView and why
+- Using Andriod Studio to wrap your website in a WebView and why
 -	Demo: Using UIWebView (ios)
 -	Demo: Using WebView (android)
+-	Activty: Wrap your midterm or bootstrap assignment in iOS and Android webviews
+-	Assignment: Final Project Part 4 - Continue Implementation and Test
 
 ###Week 14: Final Project Work
 -	This week we will use the entire class to wrap our the Final Project and get help
@@ -110,3 +112,4 @@ not Titan.  See Instructor for details.
 -	Wearables(Smart Watches, Activity Trackers, Virtual Reality, etc...)
 -	Activity: You're really an expert now!
 -	Activity: Concepting Mobile Tech
+- BE SURE TO TURN IN YOUR FINAL PROJECT!
