@@ -96,16 +96,15 @@ not Titan.  See Instructor for details.
 -	Activity: Work on Assignment
 -	Assignment: Final Project Part 3 - High Fidelity Mockup + Begin Implementation
 
-###Week 13: Wrapping a site in Swift and in Android
+###Week 13: Wrapping a site in xcode and swift + Final Project Work
 -	Using xcode and swift to wrap your website in a UIWebView and why
-- Using Andriod Studio to wrap your website in a WebView and why
 -	Demo: Using UIWebView (ios)
--	Demo: Using WebView (android)
--	Activty: Wrap your midterm or bootstrap assignment in iOS and Android webviews
+-	Activty: Wrap your midterm or bootstrap assignment in iOS UIWebView
 -	Assignment: Final Project Part 4 - Continue Implementation and Test
 
-###Week 14: Final Project Work
--	This week we will use the entire class to wrap our the Final Project and get help
+###Week 14: Wrapping a site in Android WebView Final Project Work
+- Demo: Wrap your midterm or bootstrap site in an Android WebView
+-	Activity: Use the rest of the class to work on your Final Project
 -	Assignment: Finish Implementing Final Project and Submit
 
 ###Week 15: More on Mobile Tech
