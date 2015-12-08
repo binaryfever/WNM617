@@ -1,38 +1,43 @@
-package com.example.fmcha.webviewexample;
+package com.example.student.webviewexample;
 
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
 
-public class MainActivity extends AppCompatActivity {
 
+public class MainActivity extends ActionBarActivity {
+
+    //Create the webview variable
     private WebView mWebView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_main);
 
-        mWebView = (WebView) findViewById(R.id.activity_main_webview);
+        //This is the url we want to load
+        String url="http://www.google.com";
 
-        // Enable Javascript
-        WebSettings webSettings = mWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
+        //Tell the main activity the webview we want to use
+        WebView view = (WebView) this.findViewById(R.id.webView);
 
-        // Force links and redirects to open in the WebView instead of in a browser
-        mWebView.setWebViewClient(new WebViewClient());
+        //By default JavaScript is disabled so we just enable it
+        view.getSettings().setJavaScriptEnabled(true);
 
-        //Load a remote website
-        mWebView.loadUrl("http://www.google.com");
+        //This allows us to load new pages in our WebView and not the defaut browser of the phone
+        view.setWebViewClient(new WebViewClient());
+
+        //Load the URL
+        view.loadUrl(url);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
