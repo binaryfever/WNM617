@@ -110,5 +110,5 @@ not Titan.  See Instructor for details.
 ###Week 15: More on Mobile Tech
 -	Wearables(Smart Watches, Activity Trackers, Virtual Reality, etc...)
 -	Activity: You're really an expert now!
--	Activity: Concepting Mobile Tech
+-	Activity: Work on your Final Project
 - BE SURE TO TURN IN YOUR FINAL PROJECT!
