@@ -40,9 +40,15 @@
     <!-- Now we do the parse work -->
     <script>
       //We need to tell parse what app this is. 
+<<<<<<< HEAD
      Parse.initialize("5Uh6MOqzbuhRH7Y6r4WiAdHPp1tKIhx0aZ30hDrQ", "L9exOVAYq2cFR0jMxtIIg16rRUHfTtjPzKrodC87"); 
      //Create the registration store (The Registration is a class in OOP)
      var Registration = Parse.Object.extend("RegistrationObject");
+=======
+     Parse.initialize("your_application_id", "your_javascript_key"); 
+     //Create the registration store
+     var Registration = Parse.Object.extend("Registration");
+>>>>>>> origin/master
      
      //create the thing we want to save.  In this case it is a registration to a conference
      //It is an object of the class Registration
