@@ -11,9 +11,6 @@ import android.webkit.WebViewClient;
 
 public class MainActivity extends ActionBarActivity {
 
-    //Create the webview variable
-    private WebView mWebView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
